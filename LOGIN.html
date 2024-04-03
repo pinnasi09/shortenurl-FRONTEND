@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>LOGIN</title>
+        <link rel="stylesheet" href="css/logincss.css">
+</head>
+<body>
+<div class="shape2">
+</div>
+<div class="shape">
+</div>
+<div class="shape1">
+    <div class="shape3">
+</div>
+
+</div>
+<form>
+    <h1>LOGIN HERE!</h1>
+<label>UserName</label>
+<input type="text" placeholder="Eamil or Phone" id="username">
+<label>PassWord</label>
+<input type="password" placeholder="password" id="password">
+<button type="button" onclick="printValue()">Log In</button>
+<br>
+<h4> New User ? &nbsp<a href="REGISTERATION.html">Register here</a></h4>
+
+
+</form>
+<div class="shape4">
+</div>
+<div class="shape6">
+</div>
+<div class="shape5">
+    </div>
+    <div class="shape7">
+</div>
+<script type="text/javascript">
+  function printValue() {
+    var username = document.getElementById("username").value;
+    var passcode = document.getElementById("password").value;
+    
+    // Check if the username matches the specified value
+    if (username === "tharun12345anon@gmail.com" &&  passcode==="123456") {
+        // Redirect to test.html
+        window.location.assign("index.html");
+       
+        finish();   
+    } else {
+        // Stay on the same page
+        alert("Invalid username. Please try again.");
+    }
+}
+</script>
+
+
+
+</body>
+</html>
