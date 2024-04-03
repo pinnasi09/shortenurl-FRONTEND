@@ -1,5 +1,8 @@
 # pinnasi siva kumar - Shortly URL shortening (FRONTEND)
 
+![desktop-preview](https://github.com/pinnasi09/shortenurl-FRONTEND/assets/148488107/68856192-5418-4a35-bec5-4e62a89d8553)
+
+
 
 ## Welcome! 👋
 
